@@ -1,0 +1,33 @@
+.data {
+  background-color: darkblue;
+}
+
+#name,
+#surname,
+#color {
+  display: inline-block;
+  border: 1px solid transparent;
+  padding: 10px 50px;
+  text-transform: uppercase;
+  width: 25%;
+}
+
+#name:hover,
+#surname:hover,
+#color:hover {
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pass {
+  text-align: center;
+  background-color: blue;
+  text-transform: uppercase;
+}
+
+.pass:hover {
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
